@@ -1,0 +1,46 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+.header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+.logo-header {
+    width: 85px;
+    height: auto;
+}
+
+.header-titulo {
+    margin: 0;
+}
+
+.header-nav-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.header-nav {
+    margin-right: 10px;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contenido principal */
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px
+}
+
