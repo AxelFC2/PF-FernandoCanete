@@ -44,5 +44,12 @@ body {
     padding: 20px
 }
 
-
+.imagenentrada {
+width: 500px;
+height: auto;
+display: block;
+padding-inline: 50px;
+display: flex;
+flex-direction: column;
+}
 
