@@ -101,6 +101,8 @@ flex-direction: column;
     padding: 8px;
 }
 
+/* Contenido plantilla */
+
 .titulopl {
     padding: 5px;
 }
@@ -122,3 +124,14 @@ flex-direction: column;
     grid-template-columns: auto;
     
 }
+
+/* Contenido Acerca del club */
+
+.monumental {
+    padding: 15px;
+}
+
+.mapa {
+    padding: 15px;
+}
+
