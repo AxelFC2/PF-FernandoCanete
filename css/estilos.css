@@ -87,6 +87,16 @@ flex-direction: column;
     padding: 10px;
 }
 
-.span {
-    background-color: black;
+/* Contenido de partidos */
+
+.titulotabla {
+    padding: 8px;
+}
+
+.tabla {
+    padding: 15px;
+}
+
+.proximopartido {
+    padding: 8px;
 }
