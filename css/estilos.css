@@ -64,3 +64,29 @@ flex-direction: column;
 .footer-texto {
     color: white;
 }
+
+/* Contenido noticias */
+
+.simon {
+    width: 350px;
+    height: auto;
+    padding: 10px;
+}
+
+.titulonoticia {
+    padding: 10px;
+}
+
+.card-text {
+    padding: 5px;
+}
+
+.nicolas {
+    width: 450px;
+    height: auto;
+    padding: 10px;
+}
+
+.span {
+    background-color: black;
+}
