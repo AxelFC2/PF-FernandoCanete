@@ -100,3 +100,25 @@ flex-direction: column;
 .proximopartido {
     padding: 8px;
 }
+
+.titulopl {
+    padding: 5px;
+}
+
+.plantilla {
+    padding: 10px;
+    width: 500px;
+    height: auto;
+}
+
+.titulopl2 {
+    padding: 5px;
+    color: red;
+}
+
+.plantilla2 {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-columns: auto;
+    
+}
