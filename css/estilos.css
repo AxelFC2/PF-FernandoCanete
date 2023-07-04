@@ -2,6 +2,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "footer footer footer footer"
+    ;
 }
 
 /* Encabezado */
@@ -9,6 +15,7 @@ body {
     background-color: rgb(80, 80, 80);
     padding: 20px;
     color: #fff;
+    grid-area: header;
 }
 
 .logo-header {
@@ -41,7 +48,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 20px
+    padding: 20px;
+    grid-area: main;
 }
 
 .imagenentrada {
@@ -57,7 +65,8 @@ flex-direction: column;
 
 .footer {
     background-color:rgb(80, 80, 80);
-    padding: 20px
+    padding: 20px;
+    grid-area: footer;
     
 }
 
@@ -135,3 +144,27 @@ flex-direction: column;
     padding: 15px;
 }
 
+.card {
+    padding: 0px;
+    margin: 10px;
+    width: 600px;
+    height: 600px;
+}
+
+.col {
+    padding: 0px;
+}
+
+.inicio {
+    padding: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+    body{
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer"
+        ;
+    }
+}
