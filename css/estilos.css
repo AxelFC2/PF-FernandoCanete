@@ -159,6 +159,8 @@ flex-direction: column;
     padding: 15px;
 }
 
+/* Dispositivos moviles */
+
 @media (min-width: 320px) and (max-width: 576px){
     body{
         grid-template-areas: 
