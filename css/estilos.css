@@ -8,7 +8,7 @@ body {
     "main main main aside"
     "footer footer footer footer"
     ;
-}
+
 
 /* Encabezado */
 .header {
@@ -144,11 +144,13 @@ flex-direction: column;
     padding: 15px;
 }
 
+/* Cards */
+
 .card {
     padding: 0px;
-    margin: 10px;
+    margin: 50px;
     width: 600px;
-    height: 600px;
+    height: auto;
 }
 
 .col {
