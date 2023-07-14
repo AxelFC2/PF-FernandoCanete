@@ -1,0 +1,149 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-areas: "header header header header" "main main main aside" "footer footer footer footer";
+}
+
+/* Encabezado */
+header {
+  background-color: rgb(80, 80, 80);
+  padding: 20px;
+  color: #fff;
+  grid-area: header;
+}
+header .logo-header {
+  width: 85px;
+  height: auto;
+}
+header .header-titulo {
+  margin: 0;
+}
+header .header-nav-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+header .header-nav {
+  margin-right: 10px;
+}
+header .header-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Contenido principal */
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  grid-area: main;
+}
+.main .imagenentrada {
+  width: 500px;
+  height: auto;
+  display: block;
+  padding-inline: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo del footer */
+.footer {
+  background-color: rgb(80, 80, 80);
+  padding: 20px;
+  grid-area: footer;
+}
+.footer .footer-texto {
+  color: white;
+}
+
+/* Contenido noticias */
+.simon {
+  width: 350px;
+  height: auto;
+  padding: 10px;
+}
+.simon .titulonoticia {
+  padding: 10px;
+}
+.simon .card-text {
+  padding: 5px;
+}
+.nicolas {
+  width: 450px;
+  height: auto;
+  padding: 10px;
+}
+
+/* Contenido de partidos */
+.titulotabla {
+  padding: 8px;
+}
+
+.tabla {
+  padding: 15px;
+}
+
+.proximopartido {
+  padding: 8px;
+}
+
+/* Contenido plantilla */
+.titulopl {
+  padding: 5px;
+}
+
+.plantilla {
+  padding: 10px;
+  width: 500px;
+  height: auto;
+}
+
+.titulopl2 {
+  padding: 5px;
+  color: red;
+}
+
+.plantilla2 {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-template-columns: auto;
+}
+
+/* Contenido Acerca del club */
+.monumental {
+  padding: 15px;
+}
+
+.mapa {
+  padding: 15px;
+}
+
+/* Cards */
+.card {
+  padding: 0px;
+  margin: 50px;
+  width: 600px;
+  height: auto;
+}
+
+.col {
+  padding: 0px;
+}
+
+.inicio {
+  padding: 15px;
+}
+
+/* Dispositivos moviles */
+@media (min-width: 320px) and (max-width: 576px) {
+  body {
+    grid-template-areas: "header" "main" "footer";
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
