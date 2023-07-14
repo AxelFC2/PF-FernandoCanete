@@ -71,10 +71,13 @@
     padding: 15px;
 }
 /* Contenido noticias */
+@mixin tamanios($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
 
 .simon{
-    width: 350px;
-    height: auto;
+    @include tamanios(450px, auto);
     padding: 10px;
     .titulonoticia{
         padding: 10px;
@@ -83,8 +86,7 @@
         padding: 5px;
     }
     .nicolas{
-        width: 450px;
-        height: auto;
+        @include tamanios(450px, auto);
         padding: 20px;
     }
 }
