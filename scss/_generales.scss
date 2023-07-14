@@ -1,0 +1,11 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "footer footer footer footer"
+    ;
+}

@@ -1,21 +1,14 @@
-/* Estilos generales */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: grid;
-    grid-template-areas: 
-    "header header header header"
-    "main main main aside"
-    "footer footer footer footer"
-    ;
-}
+
+@import 'variables';
+@import 'generales';
+
 
 /* Encabezado */
 header {
     
     background-color: rgb(80, 80, 80);
     padding: 20px;
-    color: #fff;
+    color: $primary-color;
     grid-area: header;
     .logo-header {
         width: 85px;
@@ -34,7 +27,7 @@ header {
         margin-right: 10px;
     }    
     .header-nav a {
-        color: #fff;
+        color: $primary-color;
         text-decoration: none;
 }  
 }
@@ -63,7 +56,7 @@ header {
     padding: 20px;
     grid-area: footer;
     .footer-texto {
-        color: white;
+        color: $primary-color; 
     }
     
 }
