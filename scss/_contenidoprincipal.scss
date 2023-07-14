@@ -1,0 +1,90 @@
+/* Contenido principal */
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    grid-area: main;
+    .imagenentrada {
+        width: 500px;
+        height: auto;
+        display: block;
+        padding-inline: 50px;
+        display: flex;
+        flex-direction: column;
+        }
+}
+
+/* Contenido plantilla */
+
+.titulopl {
+    padding: 5px;
+}
+.plantilla {
+    padding: 10px;
+    width: 500px;
+    height: auto;
+}
+.titulopl2 {
+    padding: 5px;
+    color: red;
+}
+
+.plantilla2 {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-columns: auto;
+    
+}
+
+/* Contenido de partidos */
+.titulotabla {
+    padding: 8px;
+}
+.tabla {
+    padding: 15px;
+}
+.proximopartido {
+    padding: 8px;
+}
+
+/* Contenido Acerca del club */
+.monumental {
+    padding: 15px;
+}
+.mapa {
+    padding: 15px;
+}
+
+/* Cards */
+
+.card {
+    padding: 0px;
+    margin: 50px;
+    width: 600px;
+    height: auto;
+}
+.col {
+    padding: 0px;
+}
+.inicio {
+    padding: 15px;
+}
+/* Contenido noticias */
+
+.simon{
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    .titulonoticia{
+        padding: 10px;
+    }
+    .card-text{
+        padding: 5px;
+    }
+    .nicolas{
+        width: 450px;
+        height: auto;
+        padding: 20px;
+    }
+}

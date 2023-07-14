@@ -1,4 +1,4 @@
-/* Estilos generales */
+/*Variables*/ /* Estilos generales */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -10,7 +10,7 @@ body {
 header {
   background-color: rgb(80, 80, 80);
   padding: 20px;
-  color: #fff;
+  color: white;
   grid-area: header;
 }
 header .logo-header {
@@ -30,7 +30,7 @@ header .header-nav {
   margin-right: 10px;
 }
 header .header-nav a {
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 
@@ -49,47 +49,6 @@ header .header-nav a {
   padding-inline: 50px;
   display: flex;
   flex-direction: column;
-}
-
-/* Estilo del footer */
-.footer {
-  background-color: rgb(80, 80, 80);
-  padding: 20px;
-  grid-area: footer;
-}
-.footer .footer-texto {
-  color: white;
-}
-
-/* Contenido noticias */
-.simon {
-  width: 350px;
-  height: auto;
-  padding: 10px;
-}
-.simon .titulonoticia {
-  padding: 10px;
-}
-.simon .card-text {
-  padding: 5px;
-}
-.nicolas {
-  width: 450px;
-  height: auto;
-  padding: 10px;
-}
-
-/* Contenido de partidos */
-.titulotabla {
-  padding: 8px;
-}
-
-.tabla {
-  padding: 15px;
-}
-
-.proximopartido {
-  padding: 8px;
 }
 
 /* Contenido plantilla */
@@ -112,6 +71,19 @@ header .header-nav a {
   display: grid;
   grid-template-columns: 6fr 6fr;
   grid-template-columns: auto;
+}
+
+/* Contenido de partidos */
+.titulotabla {
+  padding: 8px;
+}
+
+.tabla {
+  padding: 15px;
+}
+
+.proximopartido {
+  padding: 8px;
 }
 
 /* Contenido Acerca del club */
@@ -137,6 +109,34 @@ header .header-nav a {
 
 .inicio {
   padding: 15px;
+}
+
+/* Contenido noticias */
+.simon {
+  width: 350px;
+  height: auto;
+  padding: 10px;
+}
+.simon .titulonoticia {
+  padding: 10px;
+}
+.simon .card-text {
+  padding: 5px;
+}
+.nicolas {
+  width: 450px;
+  height: auto;
+  padding: 20px;
+}
+
+/* Estilo del footer */
+.footer {
+  background-color: rgb(80, 80, 80);
+  padding: 20px;
+  grid-area: footer;
+}
+.footer .footer-texto {
+  color: white;
 }
 
 /* Dispositivos moviles */

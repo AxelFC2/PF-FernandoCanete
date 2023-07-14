@@ -1,0 +1,28 @@
+/* Encabezado */
+header {
+    
+    background-color: rgb(80, 80, 80);
+    padding: 20px;
+    color: $primary-color;
+    grid-area: header;
+    .logo-header {
+        width: 85px;
+        height: auto;
+    }
+    .header-titulo {
+        margin: 0;
+    }
+    .header-nav-lista {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }    
+    .header-nav {
+        margin-right: 10px;
+    }    
+    .header-nav a {
+        color: $primary-color;
+        text-decoration: none;
+}  
+}
