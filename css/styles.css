@@ -112,6 +112,10 @@ header .header-nav a {
 }
 
 /* Contenido noticias */
+.titulonoticia {
+  padding: 10px;
+}
+
 .simon {
   width: 450px;
   height: auto;
